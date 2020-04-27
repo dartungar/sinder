@@ -1,2 +1,1 @@
-# sinder
-A (mockup landing page of) dating app for sinners.
+A training project from Angela Yu's WebDev course.
