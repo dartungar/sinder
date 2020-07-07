@@ -9,265 +9,267 @@ dark shades (text or bg): #1F1B21
 
 */
 
-body {
-    font-family: 'Montserrat', sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
 
 section#title {
-    background-image: linear-gradient( #1F1B21, #BF1818);
+  background-image: linear-gradient(#1f1b21, #bf1818);
 }
 
 /* Containers */
 
 .container-fluid {
-    padding: 5% 15%;
+  padding: 5% 15%;
 }
 
 #title .container-fluid {
-    padding: 2% 5% 15%;
+  padding: 2% 5% 15%;
 }
 
 /* Sections */
 .section-light {
-    background-color: #F0EDF0;
-    color: #1F1B21;
+  background-color: #f0edf0;
+  color: #1f1b21;
 }
 
 .section-dark {
-    background-color: #1F1B21;
-    color: #F0EDF0; 
+  background-color: #1f1b21;
+  color: #f0edf0;
 }
-
 
 /* Headings */
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat-Bold', sans-serif;
-    line-height: 1.5;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+  line-height: 1.5;
 }
 
 .title-big-heading {
-    font-size: 4rem;
-    font-weight: 900;
+  font-size: 4rem;
+  font-weight: 900;
 }
-
 
 /* Navbar */
 
 .navbar-brand {
-    font-size: 2.5rem;
-    font-family: 'Ubuntu', sans-serif;
-    color: #DE7D5E;
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #de7d5e;
 }
 
 .navbar-item {
-    padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 .nav-link {
-    font-size: 1.1rem;
-    font-weight: 100;
+  font-size: 1.1rem;
+  font-weight: 100;
 }
 
 .nav-link:hover {
-    color: #BF1818;
+  color: #bf1818;
 }
-
 
 /* Title */
 
 .title-row {
-    margin: 4% 0% 0% 0%;
+  margin: 4% 0% 0% 0%;
 }
 
 .title-img-col {
-    text-align: left;
+  text-align: left;
 }
 
 .download-button {
-    margin: 15px 10px 0px 0px;
+  margin: 15px 10px 0px 0px;
 }
 
 .download-button-apple {
-    color: #DE7D5E;
-    border-color: #DE7D5E;
+  color: #de7d5e;
+  border-color: #de7d5e;
 }
 
 .download-button-apple:hover {
-    color: #E7DBD0;
-    border-color: #DE7D5E;
-    background-color: #DE7D5E;
+  color: #e7dbd0;
+  border-color: #de7d5e;
+  background-color: #de7d5e;
 }
 
 .download-button-android {
-    color: #E7DBD0;
-    border-color: #E7DBD0;
+  color: #e7dbd0;
+  border-color: #e7dbd0;
 }
 
 .download-button-android:hover {
-    color: #1F1B21;
-    border-color: #E7DBD0;
-    background-color: #E7DBD0;
+  color: #1f1b21;
+  border-color: #e7dbd0;
+  background-color: #e7dbd0;
 }
 
 .iphone-mockup-img {
-    width: 100%;
-    padding: 20px 100px;
-    transform: rotate3d(-2, 2, 3, 15deg);
-    position: absolute;
+  width: 100%;
+  padding: 20px 100px;
+  transform: rotate3d(-2, 2, 3, 15deg);
+  position: absolute;
 }
 
 @media (max-width: 992px) {
+  .title-row {
+    text-align: center;
+  }
 
-    .title-row {
-        text-align: center;
-    }
+  .download-button-apple:hover {
+    background-color: lightcoral;
+    border-color: lightcoral;
+  }
 
-    .download-button-apple:hover {
-        background-color: lightcoral;
-        border-color: lightcoral;
-    }
-
-    .iphone-mockup-img {
-        width: 100%;
-        padding: 100px 100px;
-        transform: rotate3d(-2, 2, 3, 0deg);
-        position: static;
-    }
+  .iphone-mockup-img {
+    width: 100%;
+    padding: 100px 100px;
+    transform: rotate3d(-2, 2, 3, 0deg);
+    position: static;
+  }
 }
-
 
 /* Features */
 
 #features {
-    position: relative;
+  position: relative;
 }
 
 .feature-row {
-    text-align: center;
+  text-align: center;
 }
 
-.feature-text  {
-    color: gray;
+.feature-text {
+  color: gray;
 }
 
 .feature-heading {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .feature-icon {
-    font-size: 4rem;
-    color: #BF1818;
-    transition: ease-out 0.2s;
+  font-size: 4rem;
+  color: #bf1818;
+  transition: ease-out 0.2s;
 }
 
 .feature-icon:hover {
-    font-size: 4.5rem;
-    color: #1F1B21;
+  font-size: 4.5rem;
+  color: #1f1b21;
 }
-
 
 /* Testimonials */
 section#testimonials {
-    text-align: center;
-    position: relative;
-    z-index: 1;
+  text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .testimonial-heading {
-    font-weight: 700;
-    font-size: 3rem;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 .testimonial-img {
-    width: 200px;
-    margin: 4% 2%;
-    border-radius: 50%;
+  width: 200px;
+  margin: 4% 2%;
+  border-radius: 50%;
 }
-
 
 /* Press */
 section#press {
-    text-align: center;
+  text-align: center;
 }
 
 .press-img {
-    margin: 4% 2.5%;
-    width: 200px;
+  margin: 4% 2.5%;
+  width: 200px;
 }
 
 /* Pricing */
 section#pricing {
-    text-align: center;
+  text-align: center;
 }
 
 h2.pricing-header {
-    font-weight: 700;
-    font-size: 3rem;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 .pricing-column {
-    padding: 1% 1%;
+  padding: 1% 1%;
 }
 
 .card-deck {
-    padding: 0 5%;
+  padding: 0 5%;
 }
 
 .card {
-    margin-top: 30px;
-    border-color: #1F1B21;
-    height: 100%;
+  margin-top: 30px;
+  border-color: #1f1b21;
+  height: 100%;
 }
 
 .card-price {
-    font-weight: 700;
-    font-size: 3rem;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
-.card-title, .card-body {
-    color: #E7DBD0;
+.card-title,
+.card-body {
+  color: #e7dbd0;
 }
 
 .card-body {
-    background-color: #B77964;
-    text-align: center;
+  background-color: #b77964;
+  text-align: center;
 }
 
 .card-body > .btn {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .card-body > .btn:hover {
-    background-color: #1F1B21;
-    border-color: #1F1B21;
-    color: #E7DBD0;
+  background-color: #1f1b21;
+  border-color: #1f1b21;
+  color: #e7dbd0;
 }
 
 /* Call To Action */
 
 section#cta {
-    text-align: center;
+  text-align: center;
 }
 
 .cta-heading {
-    font-weight: 600;
-    font-size: 3rem;
-    margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 /* Footer */
 
 #footer {
-    text-align: center;
-    padding:  3%;
+  text-align: center;
+  padding: 3%;
 }
 
 #footer > p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .footer-icon {
-    margin: 0px 10px 20px;
+  margin: 0px 10px 20px;
 }
